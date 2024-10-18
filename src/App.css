@@ -1,6 +1,8 @@
 .main-section__sidebar-section{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
     height: 100vh;
+    font-family: sans-serif;
+    
 }
