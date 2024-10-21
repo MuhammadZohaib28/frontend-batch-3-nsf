@@ -1,6 +1,61 @@
-.mainsection{
+.mainsection {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+
+.mainsection-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+
+.mainsection-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    list-style: none;
+
+
+    .mainsection-singleIcon {
+        color: gray;
+    }
+}
+
+
+.mainsection-button {
+    background-color: tomato;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.mainsection-top-profile-picture {
+    /* background-color: rgb(243, 243, 57); */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 1rem;
+
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        z-index: 1;
+    }
 }

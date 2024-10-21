@@ -6,6 +6,10 @@
     height: 100vh;
     border-right: 0.5px solid black;
     padding-right: 0.5rem;
+
+    position: fixed;
+    z-index: 2;
+
 }
 
 
