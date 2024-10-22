@@ -1,0 +1,48 @@
+.services {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    padding: 0 7rem;
+}
+
+
+.services-cardsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 5rem;
+
+}
+
+
+.services-singlecard {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
