@@ -1,5 +1,5 @@
 import React from 'react'
-import './Sidebar.css'
+import './SideBar.css'
 import { CiHome } from "react-icons/ci";
 import { IoMdPerson } from "react-icons/io";
 import { FaBriefcase } from "react-icons/fa6";
