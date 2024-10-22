@@ -1,5 +1,5 @@
 import React from 'react'
-import MainSection from './components/mainSection/mainSection'
+import MainSection from './components/mainSection/MainSection'
 import Sidebar from './components/sideBar/Sidebar'
 import AboutMe from './components/aboutMe/AboutMe'
 import Services from './components/services/Services'
